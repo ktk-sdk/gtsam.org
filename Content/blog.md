@@ -1,3 +1,7 @@
+---
+title: Blog
+---
+
 # The GTSAM Blog!
 
 Blogs are currently being ported from the older version of this site, formatting issues may still exist.

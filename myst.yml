@@ -14,10 +14,10 @@ project:
     - file: Content/about.md
     - file: Content/docs.md
       children:
-      - file: GTSAM-Concepts.md
-      - file: IMU-Factor.md
-      - file: migrating-from-3.md
-      - file: Contributing.md
+      - file: Content/Notes/GTSAM-Concepts.md
+      - file: Content/Notes/IMU-Factor.md
+      - file: Content/Notes/migrating-from-3.md
+      - file: Content/Notes/Contributing.md
     - file: Content/tutorial.md
     - file: Content/blog.md
       children:
@@ -38,9 +38,11 @@ project:
 
 # navigation header at the top of screen
 site:
+  title: GTSAM.org
+  base: /gtsam.org/
   template: book-theme
   options:
-    hide_toc: true
+    # hide_toc: true
     logo_text: GTSAM # placeholder
   nav:
     - title: Get Started
