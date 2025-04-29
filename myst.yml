@@ -6,6 +6,7 @@ project:
   # keywords: []
   # authors: []
   github: https://github.com/borglab/gtsam
+  base: /gtsam.org/
 
   plugins:
     - Scripts/localpics.mjs
@@ -43,8 +44,8 @@ project:
 
 # navigation header at the top of screen
 site:
-  title: GTSAM.org
-  base: /gtsam.org/
+  # title: GTSAM.org
+  # base: /gtsam.org/
   template: book-theme
   options:
     # hide_toc: true
