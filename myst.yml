@@ -9,7 +9,7 @@ project:
   plugins:
     - Scripts/localpics.mjs
   toc:
-    - file: Content/index.md
+    - file: index.md
     - file: Content/get-started.md
     - file: Content/about.md
     - file: Content/docs.md
@@ -43,7 +43,7 @@ site:
   template: book-theme
   options:
     # hide_toc: true
-    logo_text: GTSAM # placeholder
+    logo_text: GTSAM
   nav:
     - title: Get Started
       url: /get-started
