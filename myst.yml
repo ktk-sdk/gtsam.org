@@ -45,7 +45,7 @@ project:
 # navigation header at the top of screen
 site:
   # title: GTSAM.org
-  # base: /gtsam.org/
+  base: /gtsam.org/
   template: book-theme
   options:
     # hide_toc: true
