@@ -12,6 +12,7 @@ project:
   toc:
     - file: index.md
     - url: 'https://gtsam.org'
+    
     - file: Content/get-started.md
     - file: Content/about.md
     - file: Content/docs.md
