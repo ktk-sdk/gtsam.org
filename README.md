@@ -7,5 +7,3 @@ Follow this guide to install the MyST CLI: [https://mystmd.org/guide/installing]
 
 **Run:**
 `myst start`
-
-
