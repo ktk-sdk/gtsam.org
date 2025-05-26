@@ -6,16 +6,13 @@ project:
   # keywords: []
   # authors: []
   github: https://github.com/borglab/gtsam
-  base: /gtsam.org/
 
   plugins:
     - Scripts/localpics.mjs
   toc:
     - file: index.md
-    - url: 'https://gtsam.org'
 
     - file: Content/get-started.md
-    - url: 'https://gtsam.org'
 
     - file: Content/about.md
     - file: Content/docs.md
@@ -45,11 +42,11 @@ project:
 # navigation header at the top of screen
 site:
   # title: GTSAM.org
-  base: /gtsam.org/
   template: book-theme
   options:
     # hide_toc: true
     logo_text: GTSAM
+    base: /gtsam.org/
   nav:
     - title: Get Started
       url: /get-started
