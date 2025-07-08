@@ -1,9 +1,10 @@
 ---
-title:  "Mount Rainier's Eigenvectors"
-date: 2020-08-30
+title:  Mount Rainier's Eigenvectors
+date:   2020-08-30
 authors:
-  name: Frank Dellaert
-  website: https://dellaert.github.io
+  - name: Frank Dellaert
+    website: https://dellaert.github.io
+intro:  "This post reconstructs Mount Rainier’s elevation from a top-down photo using relative measurements!\n\nIt connects the Hessian of the estimation problem with the **Graph Laplacian**, revealing how eigen decomposition provides insight into global structure and uncertainty."
 ---
 
 In this post I'll talk a bit about estimating absolute quantities from relative measurements, using the reconstruction of [Mount Rainier](https://en.wikipedia.org/wiki/Mount_Rainier) as a motivating example. I'll show how the Hessian of that problem is exactly the "Graph Laplacian" from graph theory, and relate the eigen-decomposition of that graph with the properties of the reconstruction.

@@ -1,6 +1,6 @@
 ---
 title:  LQR Control Using Factor Graphs
-date:   2019-11-02
+date:   2019-11-07
 authors:
   - name: Gerry Chen
     url: https://gerry-chen.com
@@ -8,6 +8,7 @@ authors:
     url: https://www.linkedin.com/in/yetong-zhang-9b810a105/
   - name: Frank Dellaert
     url: https://dellaert.github.io/
+intro:  "Demonstrates how to frame Linear Quadratic Regulator (LQR) control problems as factor graphs, enabling efficient optimization techniques borrowed from SLAM and sensor fusion to solve classic control tasks."
 ---
 
 # Introduction

@@ -1,9 +1,10 @@
----å
-title:  "Releasing GTSAM 4.0.3"
+---
+title:  Releasing GTSAM 4.0.3
 date: 2020-07-16
 authors:
-  name: Fan Jiang
-  url: https://blog.amayume.net/
+  - name: Fan Jiang
+    url: https://blog.amayume.net/
+intro:  "**GTSAM 4.0.3** introduces key improvements, including a switch to the $SE(3)$ exponential map for `Pose3` retraction—boosting convergence for poorly initialized problems.\n\nThis release also includes robust noise models, Python and Windows enhancements, bug fixes, and performance gains."
 ---
 
 # Introduction

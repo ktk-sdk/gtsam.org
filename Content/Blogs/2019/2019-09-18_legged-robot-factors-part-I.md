@@ -2,8 +2,9 @@
 title:  Legged Robot Factors
 date: 2019-09-18
 authors:
-    name: Ross Harley
-    email: m.ross.hartley@gmail.com
+    - name: Ross Harley
+      email: m.ross.hartley@gmail.com
+intro: "Outlines how GTSAM can be extended with custom factors tailored for **legged robot dynamics**, laying the groundwork for efficient state estimation in bipedal or quadrupedal locomotion."
 ---
 
 This is the first blog post in a series about using factor graphs for legged robot state estimation. It is meant to provide a high-level overview of what I call *kinematic and contact factors* and how they can be used in GTSAM. More details can be found in our conference papers:

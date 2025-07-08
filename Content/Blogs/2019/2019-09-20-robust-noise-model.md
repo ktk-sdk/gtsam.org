@@ -2,8 +2,9 @@
 title:  Look Ma, No RANSAC
 date:   2019-09-20
 authors:
-  name: Varun Agrawal
-  website: https://varunagrawal.github.io
+  - name: Varun Agrawal
+    website: https://varunagrawal.github.io
+intro: "Discover how robust error models can reduce the need for RANSAC in parameter estimation by down-weighting outliers directly—yielding estimates that match or exceed RANSAC results (even with 2:1 outlier ratios!)"
 ---
 
 (*__Psst__, be sure to clone/download GTSAM 4.0.2 which resolves a bug in the Huber model discussed below, for correct weight behavior*)

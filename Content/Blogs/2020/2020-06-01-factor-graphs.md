@@ -1,10 +1,11 @@
 ---
-title:  "What are Factor Graphs?"
+title:  What are Factor Graphs?
 date:   2020-06-01
 authors:
   - name: Frank Dellaert
     url: https://dellaert.github.io/
     twitter: https://x.com/fdellaert
+intro:  "**Factor graphs** are powerful graphical models representing variables and constraints in estimation problems, and are the foundation of GTSAM's optimization.\n\nHere we explain their structure and follow some of their applications in the robotics domain."
 ---
 
 Many computational problems in robotics have an optimization problem at their core. For example, in simultaneous localization and mapping (SLAM) and many other **estimation problems** we are after a maximum a posteriori estimate, i.e., we try to maximize posterior probability of the variables given a set of measurements. When attempting to **act optimally**, we try to maximize a performance index, or conversely minimize a penalty function. And even in classical planning, we are trying to find an assignment to a set of discrete variables that minimizes the plan length or optimizes for some other desirable property of the plan.

@@ -1,9 +1,10 @@
 ---
-title:  "Geometry and Variable Naming Conventions"
+title:  Geometry and Variable Naming Conventions
 date:   2020-06-28
 authors:
   - name: Samarth Brahmbhatt
     url: https://samarth-robo.github.io
+intro:  "A practical guide to naming geometric variables in GTSAM code. \n\n*(Aligning naming conventions like `wTc` and `cX` with textbook notation makes coordinate transforms and pose compositions easier to read and less error‑prone.)*"
 ---
 
 I am a post-doc at [Intel ISL](https://vladlen.info). In my
